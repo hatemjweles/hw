@@ -102,13 +102,3 @@ print(wod_list)
 
 print(wod_list2)
 counter = 0
-
-for i in range(6):
-    for j in range(6):
-        if wod_list[j] == wod_list2[i]:
-            counter = counter + 1
-
-if counter > 2:
-    print("both paragraph are related")
-else:
-    print("both paragraph are not related")
